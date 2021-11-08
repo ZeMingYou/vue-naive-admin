@@ -1,0 +1,37 @@
+{
+  "name": "vue-naive-admin",
+  "version": "0.0.1",
+  "author": {
+    "name": "yzm",
+    "email": "48007772@163.com",
+    "url": "https://github.com/ZeMingYou/vue-naive-admin.git"
+  },
+  "description": "基于vue3+vite2+naiveui的前端组件库",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^9",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.2",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "naive-ui": "^2.20.2",
+    "scss": "^0.2.4",
+    "typescript": "^4.4.3",
+    "unplugin-vue-components": "^0.17.0",
+    "vfonts": "^0.1.0",
+    "vite": "^2.6.4",
+    "vue-router": "^4.0.12",
+    "vue-tsc": "^0.3.0"
+  },
+  "license": "ISC"
+}
