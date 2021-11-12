@@ -14,19 +14,21 @@
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@types/estree": "^0.0.50",
     "autoprefixer": "^9",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.2",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "typescript-estree": "^18.1.0",
     "vue": "^3.2.16"
   },
   "devDependencies": {
-    "@types/node": "^16.11.6",
+    "@types/node": "^16.11.7",
     "@vitejs/plugin-vue": "^1.9.3",
     "naive-ui": "^2.20.2",
     "scss": "^0.2.4",
-    "typescript": "^4.4.3",
+    "typescript": "^4.4.4",
     "unplugin-vue-components": "^0.17.0",
     "vfonts": "^0.1.0",
     "vite": "^2.6.4",

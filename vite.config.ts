@@ -33,8 +33,8 @@ export default defineConfig({
      * 不再需要像vite1一样在别名前后加上/
     */
     alias: {
-      '～/': resolve('src/'),
-      'c/': resolve('src/components/')
+      '@': resolve('src/'),
+      'c': resolve('src/components/')
     },
     dedupe: ['vue']
   },
@@ -66,12 +66,12 @@ export default defineConfig({
       //   }
       // }
     }
-  },
-  optimizeDeps: {
-    include: [
-      'vue',
-      'vue-router'
-    ]
   }
+  // optimizeDeps: {
+  //   include: [
+  //     'vue',
+  //     'vue-router'
+  //   ]
+  // }
 
 })
